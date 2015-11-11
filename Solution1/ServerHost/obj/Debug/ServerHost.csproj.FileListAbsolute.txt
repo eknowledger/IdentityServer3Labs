@@ -25,3 +25,4 @@ C:\Projects\__Git\Labs\IdentityServer3Labs\Solution1\ServerHost\bin\Debug\Serilo
 C:\Projects\__Git\Labs\IdentityServer3Labs\Solution1\ServerHost\bin\Debug\Serilog.Sinks.Literate.xml
 C:\Projects\__Git\Labs\IdentityServer3Labs\Solution1\ServerHost\obj\Debug\ServerHost.exe
 C:\Projects\__Git\Labs\IdentityServer3Labs\Solution1\ServerHost\obj\Debug\ServerHost.pdb
+C:\Projects\__Git\Labs\IdentityServer3Labs\Solution1\ServerHost\bin\Debug\Configs\idsrv3test.pfx

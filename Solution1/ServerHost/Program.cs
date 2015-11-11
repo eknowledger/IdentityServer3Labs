@@ -10,9 +10,11 @@ using IdentityServer3.Core.Services.InMemory;
 using Microsoft.Owin.Hosting;
 using Owin;
 using Serilog;
+using ServerHost.Configs.SelfHost.Config;
 
 namespace ServerHost
 {
+    // https://github.com/IdentityManager/IdentityManager/issues/120
     internal class Program
     {
         private static void Main(string[] args)
@@ -65,10 +67,12 @@ namespace ServerHost
         {
             var options = new IdentityServerOptions
             {
+               // SigningCertificate = Certificate.Get(),
                 Factory = new IdentityServerServiceFactory()
                             .UseInMemoryClients(Clients.Get())
                             .UseInMemoryScopes(Scopes.Get())
-                            .UseInMemoryUsers(new List<InMemoryUser>())
+                            .UseInMemoryUsers(new List<InMemoryUser>()),
+
             };
 
             
