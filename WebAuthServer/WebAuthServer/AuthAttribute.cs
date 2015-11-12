@@ -13,6 +13,7 @@ namespace WebAuthServer
             if (filterContext.HttpContext.User.Identity.IsAuthenticated)
             {
                 // 403 we know who you are, but you haven't been granted access
+                
                 filterContext.Result = new HttpStatusCodeResult(System.Net.HttpStatusCode.Forbidden);
             }
             else

@@ -21,7 +21,7 @@ namespace WebAuthServer.IdentityServer
                 new InMemoryUser
                 {
                     Username = "aelmalt",
-                    Password = "secret",
+                    Password = "12345",
                     Subject = "1",
 
                     Claims = new[]
@@ -35,7 +35,7 @@ namespace WebAuthServer.IdentityServer
                 new InMemoryUser
                 {
                     Username = "Jf",
-                    Password = "secret",
+                    Password = "12345",
                     Subject = "1",
 
                     Claims = new[]

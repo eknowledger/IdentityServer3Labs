@@ -1,6 +1,11 @@
 ﻿@model IEnumerable<System.Security.Claims.Claim>
 
+<h1>Our secret!</h1>
+<h2>Bird is the word!</h2>
+
+<h3>You token information!</h3>
 <dl>
+
     @foreach (var claim in Model)
     {
         <dt>@claim.Type</dt>

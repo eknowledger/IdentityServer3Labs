@@ -15,6 +15,7 @@ namespace WebAuthServer.Controllers
             return View();
         }
 
+        [HandleForbidden]
         [Auth(Roles = "geek")]
         public ActionResult About()
         {
